@@ -11,7 +11,7 @@ Proyek ini mengevaluasi kinerja pendekatan *supervised* dan *unsupervised learni
 Berdasarkan analisis, **HDBSCAN** terbukti menjadi metode yang paling optimal untuk mengidentifikasi keanggotaan gugus bintang tanpa ketergantungan pada data berlabel. Metode ini sangat sesuai untuk data astronomi karena kemampuannya mendeteksi klaster berbasis kepadatan dan ketahanannya terhadap *noise*.
 
 ## Struktur File
-- `laporan.pdf`: Laporan lengkap penelitian yang mencakup tinjauan pustaka, metodologi, hasil evaluasi *confussion matrix*, dan analisis.
+- `Laporan.pdf`: Laporan lengkap penelitian yang mencakup tinjauan pustaka, metodologi, hasil evaluasi *confussion matrix*, dan analisis.
 - `main-notebook.ipynb`: *Jupyter Notebook* yang memuat kode *preprocessing* data, pemodelan, serta evaluasi hasil algoritma.
 - `data_ngc7790-7788`: Data sumber mentah dan olahan yang digunakan dalam perhitungan klasterisasi.
 - `data_star-cluster-problabeled.csv`: Dataset berlabel yang digunakan sebagai *training data* untuk melatih algoritma *supervised learning* (Random Forest dan SVM) dalam mengenali pola anggota gugus bintang.
